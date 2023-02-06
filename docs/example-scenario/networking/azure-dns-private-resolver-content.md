@@ -32,7 +32,7 @@ In this solution, you can't use the Azure public DNS service to resolve on-premi
 
 1. The response arrives at the client VM.
 
-1. The client VM establishes a private connection to the private endpoint that uses the AP address 10.5.0.5. The private endpoint provides the client VM with a secure connection to an Azure database.
+1. The client VM establishes a private connection to the private endpoint that uses the IP address 10.5.0.5. The private endpoint provides the client VM with a secure connection to an Azure database.
 
 For more information, see [Azure private endpoint DNS configuration](/azure/private-link/private-endpoint-dns).
 
